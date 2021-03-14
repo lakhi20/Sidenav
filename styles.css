@@ -46,11 +46,11 @@
     width:100%;
     line-height:50px;
     color:rgb(19, 18, 18);
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-left:25%;
+    
+    font-weight: light;
+    padding-left:15%;
     border-left:5px solid transparent;
-    letter-spacing:1px;
+
     transition: all 0.3s linear;
   }
   .active a{
@@ -108,15 +108,24 @@
 }
 
 .pye{
-  margin-top: 10px;
+  margin-top: 20px;
 font-size: 50px;
-
+text-align: center;
+margin-left: 15px;
+}
+.pye1{
+  text-align: center;
+  margin-left: 45px;
 }
 
 .icon{
-  border-bottom: 1px solid grey;
+  border-bottom: 0.25px solid grey;
 }
 
+ p{text-align: center;
+  margin-top: -7px;
+
+}
   @media only screen and (max-width : 860px){
     
     .text{
